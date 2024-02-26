@@ -12,9 +12,9 @@ function getFiles(req, res, dir) {
     currentDir = path.join(dir, query);
   }
 
-  if (up) {
-    currentDir = query;
-  }
+  // if (up) {
+  //   currentDir = path.join(dir, query);
+  // }
 
   console.log('Browsing: '.green, currentDir.cyan);
   
